@@ -38,7 +38,7 @@ document.addEventListener("keyup", keyUpHandler, false);
 //document.addEventListener("mousemove", mouseMoveHandler, false);
 
 do {
-    lvl = prompt("Ingrese el nivel 1 - 10");
+    lvl = prompt("Type the level 1 - 10");
 switch (lvl) {
     case '1':
         lvl = 20;
@@ -75,7 +75,7 @@ switch (lvl) {
         break;
     default:
         lvl = 0;
-        alert("Nivel incorrecto");
+        alert("Wrong level");
         break;
 }
 } while (lvl == 0);
